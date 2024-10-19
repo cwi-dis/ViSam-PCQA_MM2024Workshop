@@ -240,7 +240,7 @@ if __name__ == "__main__":
             raise
         print("num class: ", _num_class)
 
-        if args.model == "MM_PCQA": # Change the name to ViSam-PCQA
+        if args.model == "ViSam_PCQA": # Change the name to ViSam-PCQA
             model = ViSam_PCQA(
                 num_classes=_num_class,
                 args=args,
