@@ -2,7 +2,7 @@
 # ln -s /home/xzhou/data /projects/0/prjs0839/data/MM-PCQA/
 # python -u train_img.py \
 # --learning_rate 0.00005 \
-# --model MM_PCQA \
+# --model ViSam_PCQA \
 # --batch_size  18 \
 # --database SJTU  \
 # --data_dir_texture_img /projects/0/prjs0839/data/MM-PCQA/sjtu_projections_xm/ \
@@ -18,7 +18,7 @@
 
 # python -u train_img.py \
 # --learning_rate 0.00005 \
-# --model MM_PCQA \
+# --model ViSam_PCQA \
 # --batch_size 18 \
 # --database WPC  \
 # --data_dir_texture_img /projects/0/prjs0839/data/MM-PCQA/wpc_projections_xm/ \
@@ -34,7 +34,7 @@
 
 python -u train_img.py \
 --learning_rate 0.00005 \
---model MM_PCQA \
+--model ViSam_PCQA \
 --batch_size 18 \
 --database BASICS  \
 --data_dir_texture_img /projects/0/prjs0839/data/MM-PCQA/basic_projections_xm/ \
