@@ -7,7 +7,9 @@ As 3D immersive media continues to gain prominence, Point Cloud Quality Assessme
 
 <img src="https://github.com/cwi-dis/ViSam-PCQA_MM2024Workshop/blob/master/imgs/motivation.jpg" align="left" />
 
-**Illustration to show the perceptual impact of distortion in different areas on redandblack point cloud.** (a) is the reference version. (b)-(d) depict the effects of introducing geometry and color Gaussian noise with equal intensity on the face, dress, and legs, respectively. Notably, (c) exhibits nearly identical perceptual quality as the reference point clouds, attributed to the chaotic background texture that effectively
+**Illustration to show the perceptual impact of distortion in different areas on redandblack point cloud.** (a) is the reference version.   
+(b)-(d) depict the effects of introducing geometry and color Gaussian noise with equal intensity on the face, dress, and legs, respectively.  
+Notably, (c) exhibits nearly identical perceptual quality as the reference point clouds, attributed to the chaotic background texture that effectively
 masks the distortion. (d) ranks second in perceptual quality, while (a) is observed to have the least favorable perceptual quality.  
 The perceptual quality of point clouds is dependent on distortion type since the HVS has different tolerances for different distortions, and where the distortion is located can have a huge impact on the overall quality of point clouds.
 
