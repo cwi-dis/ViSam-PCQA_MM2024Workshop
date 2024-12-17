@@ -1,0 +1,3 @@
+[submodule "TranSalNet"]
+	path = TranSalNet
+	url = git@github.com:zhouzhouha/TranSalNet.git
