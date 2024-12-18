@@ -149,9 +149,9 @@ if __name__ == "__main__":
     # Convert the datetime object to a string format
     date_time_string = current_datetime.strftime("%Y-%m-%d_%H-%M")
     wandb_name = f"dataset_{args.database}_{args.k_fold_num}_Fold_{date_time_string}_Epoch_{args.num_epochs}_BS_{args.batch_size}_Loss_{args.loss}_Classify_{args.use_classificaiton}_Local_{args.use_local}_Method_{args.method_label}_Modality_{args.modality}"
-    wandb.login(relogin=True, key="779e2f877d126124ebdb97b169efe2c5b4f1f102")
+    wandb.login(relogin=True, key="your own key")
     wandb.init(
-        project="Projection_PCQA", config=args, name=wandb_name, sync_tensorboard=True
+        project="", config=args, name=wandb_name, sync_tensorboard=True
     )
     print("wandb name: ", wandb_name)
     mean_total_loss = np.zeros(num_epochs)  # {k: 0 for k in range(num_epochs)}
